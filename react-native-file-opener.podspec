@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version        = package['version']
   s.summary        = package['description']
   s.description    = package['description']
-  s.author         = package['author']['name']
+  s.author         = 'Dossier Solutions'
   s.license        = package['license']
   s.homepage       = package['homepage']
   s.source         = { :git => 'https://github.com/dossiersolutions/react-native-file-opener.git', :tag => "v#{s.version}" }
